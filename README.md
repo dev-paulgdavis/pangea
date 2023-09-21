@@ -1,7 +1,6 @@
 # News Project Django Settings
 
-This project contains the Django settings for a news project. It was generated using `django-admin startproject` with Django 4.2.4.
-
+This project contains the Django settings for a Django project allowing you to use Pangea as a vault for your passwords and API keys. 
 ## Dependencies
 
 Before running this project, make sure you have the following dependencies installed:

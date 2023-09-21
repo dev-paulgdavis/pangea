@@ -1,3 +1,37 @@
-# pangea
-A repo of code i used with Pangea with Django to store my database credentials and provides an example of how to share an API key across different models inside the Django app.
-Ref to this URL for more information: https://github.com/pangeacyber/pangea-python 
+# News Project Django Settings
+
+This project contains the Django settings for a news project. It was generated using `django-admin startproject` with Django 4.2.4.
+
+## Dependencies
+
+Before running this project, make sure you have the following dependencies installed:
+
+- `pangea.exceptions`
+- `pangea.config`
+- `pangea.services.vault.models.common`
+- `pangea.services.vault.models.symmetric`
+- `pangea.services.vault.vault`
+- `pangea.utils`
+- `dotenv`
+- `django`
+- `django_filters`
+- `django_tables2`
+- `widget_tweaks`
+
+## Installation
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies mentioned above using `pip install`.
+3. Set up the environmental parameters for the VAULT token and the Pangea domain.
+4. Replace the `SECRET_KEY` value with your own secret key.
+5. Replace the `id` values for database and API key retrieval with your own secret vault IDs.
+6. Set the `DEBUG` variable to `False` for production.
+7. Update the `ALLOWED_HOSTS` list with the appropriate domain names or IP addresses.
+8. Update the `DATABASES` dictionary with the required information for your database connection.
+
+## Usage
+
+To run the project, execute the following command:
+
+```bash
+python manage.py runserver
